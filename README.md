@@ -67,7 +67,7 @@
     > - BERT의 경우, 모델 학습 시 `NSP(Next Sentence Prediction)`를 수행하여 두 문장 간 관계를 이해할 수 있도록 학습되어,
     > - BERT는 두 텍스트를 매칭할 때 `Cross Encoder` 혹은 `Bi-encoder`를 사용할 수 있다.
     > - 결과부터 말하면 샴 네트워크는 Bi encoder 구조를 사용하며, QA 텍스트 매칭에 적합하다.
-    >
+    > <br>
     >
     >> 💡 Cross Encoder
     >> - 크로스 인코더란, 두 문장을 BERT에 한 번에 입력하여 의미 관계를 추론하는 구조를 사용
