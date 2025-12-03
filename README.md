@@ -3,10 +3,6 @@
 ### Semantic Seimilarity(의미 유사성)
    - 의미 유사성은 텍스트 간 유사도를 판별하는 task를 의미한다.
    <br>
-   - 유사도를 직접 측정하는 regression부터 0(유사함) or 1(유사하지 않음)을 예측하는 classification을 수행할 수 있다.
-   
-  <br>
-  <br>
   
 ### Contextual Word Embedding(BERT) 
   
