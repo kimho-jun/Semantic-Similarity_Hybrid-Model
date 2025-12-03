@@ -18,11 +18,11 @@
    - 이러한 텍스트를 매칭은, `텍스트 임베딩`. 즉, 텍스트를 그대로 사용하지 않고 벡터로 변환하여 벡터간 연산을 통해 유사한 텍스트를 매칭한다.
       - 대표적으로 아래 세 가지 방법을 사용
    
-       |method|특징|example|
-       |:---:|:---:|:---:|
-       |Traditional Word Embedding|단어 빈도수 기반 표현|BoW, tf-idf...|
-       |Static Word Embedding|학습을 통해 단어를 고정된 임베딩으로 변환|Word2Vec, GloVe, FastText...|
-       |`Contextual Word Embedding`|문맥을 반영한 임베딩 생성|BERT, RoBERTa...|
+    |method|특징|example|
+    |:---:|:---:|:---:|
+    |Traditional Word Embedding|단어 빈도수 기반 표현|BoW, tf-idf...|
+    |Static Word Embedding|학습을 통해 단어를 고정된 임베딩으로 변환|Word2Vec, GloVe, FastText...|
+    |`Contextual Word Embedding`|문맥을 반영한 임베딩 생성|BERT, RoBERTa...|
    
    - Contextual 방식은 `문맥`을 반영할 수 있다는 점에서 나머지 두 방법보다 의미 유사성을 탐지하는데 훨씬 유리함
       - `다의어` 혹은 `동음이의어`가 등장하는 경우, 빈도 기반(traditional) or 고정된 벡터로 변환(static)한다면 의미 유사성 측정에 제약이 발생
