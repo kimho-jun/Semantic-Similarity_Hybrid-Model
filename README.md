@@ -314,3 +314,18 @@
 - 유사도 측정을 위한 텍스트 임베딩 생성 시, 문맥적 정보와 토픽 정보를 모두 포함한 TE-BERT 모델 성능이 가장 좋았으며
 
 - 현재 VAE의 인코더 디코더는 뉴럴 네트워크로 구성하였으나, 특징 추출을 위해 다른 모델(ex- CNN, RNN) 등 추가 모델을 결합하여 새로운 구조의 VAE를 고려할 수도 있을 것 같다.
+
+<br>
+<br>
+
+## 사용 라이브러리 버전 및 BERT Check point
+ 
+  |library|version|
+  |:---:|:---:|
+  |Pandas|1.24.3|
+  |Scikit-learn|1.4.2|
+  |Pytorch|2.3.1|
+  |Transformer|4.56.1|
+  |NLTK|3.8.1|
+ 
+- BERT check_point : bert-base-uncased
