@@ -71,12 +71,14 @@
     >
     >> 💡 Cross Encoder
     >> - 크로스 인코더란, 두 문장을 BERT에 한 번에 입력하여 의미 관계를 추론하는 구조를 사용
-    >> - 구조는 아래 그림과 같다.
+    >> - Cross Encoder 구조는 아래 그림과 같다.
+    >>   
     >> ![](https://velog.velcdn.com/images/yjhut/post/87af1f9d-8e2b-416b-b6a2-174d879d05e3/image.png) | Devlin et al., (2019)
     >
     >> 💡 Bi Encoder
     >> - 바이 인코더란, 두 문장을 각 따로 입력하는 방법으로, 생성된 두 임베딩을 concat하여 최종 예측에 사용한다.
-    >> - 구조는 아래 그림과 같다.
+    >> - Bi Encoder 구조는 아래 그림과 같다.
+    >>   
     >>  ![](https://velog.velcdn.com/images/yjhut/post/e8775ac7-351c-4eed-9ff0-7a139c52286b/image.png) | Reimers, N., & Gurevych, I. (2019)
     >
     >>  🚀 두 구조의 차이점 🚀
